@@ -31,7 +31,7 @@ $external = getExternal();
 $ipchanged = checklast($external);
 
 if ($ipchanged){
-echo 'yes';
+
 	$url = 'https://' . $goog_user . ':' . $goog_pass . '@domains.google.com/nic/update?hostname=' . $domain . '&myip=' . $external . '';
 
 	$ch = curl_init();
