@@ -1,6 +1,6 @@
-# Google DDNS updater #
+# Google Domains DDNS updater #
 
-Schedule this script to update the IP address associated with your domain using the Google DDNS service.
+Schedule this script to update the IP address associated with your domain using the Google Domains DDNS service (domains.google.com).
 
 ## Requirements ##
 
