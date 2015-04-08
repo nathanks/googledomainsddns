@@ -1,13 +1,12 @@
-# README #
-
 # Google DDNS updater #
 
-Schedule this script to update the Google DDNS service.  Use crontab to schedule this script.
+Schedule this script to update the IP address associated with your domain using the Google DDNS service.
 
 ## Requirements ##
 
 * cURL extension enabled. 
 * cacert.pem file exists on system.  If not, download at http://curl.haxx.se/docs/caextract.html
+* DDNS enabled for your domain on Google Domains.  This is done using synthetic records.  More information at https://support.google.com/domains/answer/6069273?hl=en
 
 ## How to Use ##
 
